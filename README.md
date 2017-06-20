@@ -12,6 +12,6 @@
 `./run.rb IOS_PROJECT_PATH_NAME 
 
 或者在脚本中 
-`(curl -s https://raw.githubusercontent.com/flow-ci-plugin/flow-recreate-ios-project/master/run.rb > run.rb) && ruby run.rb $FLOW_IOS_PROJECT_PATH_NAME`
+`gem install xcodeproj && (curl -s https://raw.githubusercontent.com/flow-ci-plugin/flow-recreate-ios-project/master/run.rb > run.rb) && ruby run.rb $FLOW_IOS_PROJECT_PATH_NAME`
 
 其中 FLOW_IOS_PROJECT_PATH_NAME 为 `.xcodeproj` 的相对uri     
